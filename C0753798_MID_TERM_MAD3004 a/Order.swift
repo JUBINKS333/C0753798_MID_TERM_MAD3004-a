@@ -7,3 +7,28 @@
 //
 
 import Foundation
+
+class order
+{
+    var Orderid:String
+    var OrderDate:Date
+    var Productarray:[Product]
+    var Ordertotal:Int
+    
+    init()
+    {
+        self.Orderid=String()
+        self.OrderDate=Date()
+        self.Productarray=[Product]
+        self.Ordertotal=Int()
+        
+    }
+    init(OId:String,ODate:String,PArray:[Product],OTotal:Int)
+    {
+       self.Orderid=OId
+       self.OrderDate=ODate
+       self.Productarray=PArray
+       self.Ordertotal=OTotal
+    }
+    
+}
