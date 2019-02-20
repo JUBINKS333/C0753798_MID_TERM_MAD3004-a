@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B583E27221E19AD0058B7C1 /* C0753798_MID_TERM_MAD3004 a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C0753798_MID_TERM_MAD3004 a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B583E27221E19AD0058B7C1 /* C0753798_MID_TERM_MAD3004 a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "C0753798_MID_TERM_MAD3004 a"; path = "/Users/macstudent/Desktop/C0753798_MID_TERM_MAD3004 a/build/Debug/C0753798_MID_TERM_MAD3004 a"; sourceTree = "<absolute>"; };
 		9B583E2A221E19AD0058B7C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B583E31221E19FF0058B7C1 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B583E33221E1A110058B7C1 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
@@ -50,16 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				9B583E29221E19AD0058B7C1 /* C0753798_MID_TERM_MAD3004 a */,
-				9B583E28221E19AD0058B7C1 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9B583E28221E19AD0058B7C1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9B583E27221E19AD0058B7C1 /* C0753798_MID_TERM_MAD3004 a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9B583E29221E19AD0058B7C1 /* C0753798_MID_TERM_MAD3004 a */ = {
@@ -117,7 +108,7 @@
 				en,
 			);
 			mainGroup = 9B583E1E221E19AD0058B7C1;
-			productRefGroup = 9B583E28221E19AD0058B7C1 /* Products */;
+			productRefGroup = 9B583E1E221E19AD0058B7C1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

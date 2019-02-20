@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+class Product
+{
+    var productid:String
+    var productname:String
+    var price:Int
+    var quantity:Int
+    
+    init()
+    {
+        self.productid=String()
+        self.productname=String()
+        self.price=Int()
+        self.quantity=Int()
+        
+    }
+    init(PId:String,Pname:String,prce:Int,qnty:Int)
+    {
+        self.productid=PId
+        self.productname=Pname
+        self.price=prce
+        self.quantity=qnty
+    }
+}
