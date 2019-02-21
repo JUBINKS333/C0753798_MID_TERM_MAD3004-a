@@ -12,7 +12,8 @@ class Product:IDisplay
 {
     func display()
     {
-        
+        print(productid,productname,price,quantity)
+    
     }
     
     var productid:String
