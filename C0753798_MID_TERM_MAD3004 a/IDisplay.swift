@@ -13,3 +13,12 @@ protocol IDisplay
     func display()
    
 }
+
+extension String
+{
+   func formCUrrecy()
+    {
+    
+    
+    }
+}

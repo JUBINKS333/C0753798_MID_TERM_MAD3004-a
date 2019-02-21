@@ -20,7 +20,7 @@ class Product:IDisplay
     var price:Double
     var quantity:Int
     
-    init()
+   init()
     {
         self.productid=String()
         self.productname=String()
@@ -35,4 +35,6 @@ class Product:IDisplay
         self.price=prce
         self.quantity=qnty
     }
+
+}
     

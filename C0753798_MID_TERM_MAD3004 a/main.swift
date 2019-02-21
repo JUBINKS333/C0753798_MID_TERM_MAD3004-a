@@ -25,6 +25,7 @@ orders.updateValue("1", forKey: "20-02-19")
 orders.updateValue("2", forKey: "20-02-19")
 orders.updateValue("3", forKey: "20-02-19")
 
+print(orders)
 
 
 
