@@ -40,10 +40,12 @@ class order:Product
     {
         
         
-        let O1=order(OId: "12w", ODate: <#T##Date#>, PArray: p1, OTotal: <#T##Float#>)
+        let O1=order(OId: "12w", ODate: <#T##Date#>, PArray: [p1], OTotal: <#T##Float#>)
         
-        let O2=order(OId: "13x", ODate: Date,PArray:p2,OTotal:Float)
-        let O3=order(OId: "14y", ODate: <#T##Date#>, PArray: p3, OTotal: <#T##Float#>)
+        let O2=order(OId: "13w", ODate: <#T##Date#>, PArray: [p1], OTotal: <#T##Float#>)
+        
+     
+        let O3=order(OId: "14y", ODate: <#T##Date#>, PArray: [p3], OTotal: <#T##Float#>)
         
         
 
