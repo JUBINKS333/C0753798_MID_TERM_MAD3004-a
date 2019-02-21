@@ -8,7 +8,7 @@
 
 import Foundation
 
-class order
+class order:Product
 {
     var Orderid:String
     var OrderDate:Date
@@ -17,7 +17,7 @@ class order
   
     
     
-   init()
+  override  init()
     {
         self.Orderid=String()
         self.OrderDate=Date()
@@ -35,12 +35,19 @@ class order
        self.Ordertotal=OTotal
     
     }
- 
-  /*  func search()
     
+    func createOrder()
     {
-        self.getOrderById()
-    }
- */
-    
+        
+        
+        let O1=order(OId: "12w", ODate: <#T##Date#>, PArray: p1, OTotal: <#T##Float#>)
+        
+        let O2=order(OId: "13x", ODate: Date,PArray:p2,OTotal:Float)
+        let O3=order(OId: "14y", ODate: <#T##Date#>, PArray: p3, OTotal: <#T##Float#>)
+        
+        
+
+        
 }
+
+ 
