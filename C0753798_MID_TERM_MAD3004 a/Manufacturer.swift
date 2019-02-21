@@ -10,7 +10,8 @@ import Foundation
 
 class Manufacturer:IDisplay
 {
-    func display() {
+    func display()
+    {
         
     }
     

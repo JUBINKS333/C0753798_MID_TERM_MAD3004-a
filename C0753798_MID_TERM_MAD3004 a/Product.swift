@@ -10,24 +10,25 @@ import Foundation
 
 class Product:IDisplay
 {
-    func display() {
+    func display()
+    {
         
     }
     
     var productid:String
     var productname:String
-    var price:Int
+    var price:Double
     var quantity:Int
     
     init()
     {
         self.productid=String()
         self.productname=String()
-        self.price=Int()
+        self.price=Double()
         self.quantity=Int()
         
     }
-    init(PId:String,Pname:String,prce:Int,qnty:Int)
+    init(PId:String,Pname:String,prce:Double,qnty:Int)
     {
         self.productid=PId
         self.productname=Pname
