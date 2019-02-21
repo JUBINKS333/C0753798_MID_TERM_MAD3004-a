@@ -10,6 +10,10 @@ import Foundation
 
 class Manufacturer:IDisplay
 {
+    func display() {
+        
+    }
+    
     var manufacturerid:String
     var manufacturername:String
     

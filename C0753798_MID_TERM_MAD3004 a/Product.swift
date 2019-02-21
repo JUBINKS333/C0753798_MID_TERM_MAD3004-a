@@ -10,6 +10,10 @@ import Foundation
 
 class Product:IDisplay
 {
+    func display() {
+        
+    }
+    
     var productid:String
     var productname:String
     var price:Int
