@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Product
+class Product:IDisplay
 {
     var productid:String
     var productname:String
@@ -30,4 +30,6 @@ class Product
         self.price=prce
         self.quantity=qnty
     }
+    
+  
 }

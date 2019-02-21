@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Manufacturer
+class Manufacturer:IDisplay
 {
     var manufacturerid:String
     var manufacturername:String
@@ -25,3 +25,4 @@ class Manufacturer
     self.manufacturerid=MId
     self.manufacturername=Mname
     }
+}

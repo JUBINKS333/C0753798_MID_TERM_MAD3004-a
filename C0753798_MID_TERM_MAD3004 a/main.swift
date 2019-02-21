@@ -8,6 +8,18 @@
 
 import Foundation
 
-print("Hello, World!")
+print("----------------------------------------------")
+
+var p=[Product]
+
+
+p.append(P001,"Hard drive",120.00)
+p.append(P002,"ZIP drive", 90.00)
+p.append(P003,"Floppy disk", 50.00)
+p.append(P004,"Monitor",300.00)
+p.append(P005," iPhone 7 Plus",1200.00)
+
+
+
 
 

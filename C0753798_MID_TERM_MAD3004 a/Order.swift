@@ -15,7 +15,7 @@ class order
     var Productarray:[Product]
     var Ordertotal:Int
     
-    init()
+ /  init()
     {
         self.Orderid=String()
         self.OrderDate=Date()
@@ -23,12 +23,13 @@ class order
         self.Ordertotal=Int()
         
     }
-    init(OId:String,ODate:String,PArray:[Product],OTotal:Int)
+    init(OId:String,ODate:Date,PArray:[Product],OTotal:Int)
     {
        self.Orderid=OId
        self.OrderDate=ODate
        self.Productarray=PArray
        self.Ordertotal=OTotal
     }
+ 
     
 }
